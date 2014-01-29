@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'ximobi'
+
+entry = Ximobi::Entry.new
+entry.time
