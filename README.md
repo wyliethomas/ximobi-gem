@@ -1,24 +1,34 @@
 # Ximobi
 
-TODO: Write a gem description
+A command line gem for logging time and expense entries into Ximobi
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'ximobi'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install ximobi
 
 ## Usage
 
-TODO: Write usage instructions here
+Start a time entry like this:
+
+    $ ximobi time
+
+You will be prompted to enter your email
+
+    $ Email: [your ximobi email]
+
+Then you will be promptes to enter categories. Enter categories with a comma separated list:
+
+    $ Categories: One category, second category, third category
+
+Then you will be prompted to enter the time:
+
+    $ Time: [hours or minutes]
+
+Then you can enter a description:
+
+    $ Description:
+
+
 
 ## Contributing
 
